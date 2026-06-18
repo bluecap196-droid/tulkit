@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>માનવ કલ્યાણ યોજના 2026</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#eef6ff;
+color:#222;
+overflow-x:hidden;
+}
+
+.hero{
+background:linear-gradient(135deg,#003c8f,#1565c0);
+color:white;
+padding:40px 20px;
+text-align:center;
+position:relative;
+overflow:hidden;
+}
+
+.hero::before{
+content:"";
+position:absolute;
+width:300px;
+height:300px;
+background:rgba(255,255,255,0.08);
+border-radius:50%;
+top:-120px;
+right:-80px;
+animation:float 6s infinite;
+}
+
+.hero::after{
+content:"";
+position:absolute;
+width:250px;
+height:250px;
+background:rgba(255,255,255,0.08);
+border-radius:50%;
+bottom:-120px;
+left:-80px;
+animation:float 8s infinite;
+}
+
+.badge{
+display:inline-block;
+background:#ffd54f;
+color:#000;
+padding:10px 20px;
+border-radius:50px;
+font-weight:bold;
+margin-bottom:15px;
+animation:pop 1s;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.info{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:10px;
+max-width:700px;
+margin:20px auto;
+}
+
+.info div{
+background:white;
+color:#003c8f;
+padding:15px;
+border-radius:15px;
+font-weight:bold;
+}
+
+.btn{
+display:inline-block;
+padding:14px 25px;
+margin:8px;
+border-radius:12px;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.apply{
+background:#25d366;
+color:white;
+animation:pulse 2s infinite;
+}
+
+.group{
+background:white;
+color:#003c8f;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+}
+
+.container{
+width:95%;
+max-width:1200px;
+margin:auto;
+padding:20px 0;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:20px;
+margin-bottom:20px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.card h2{
+color:#003c8f;
+margin-bottom:15px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:12px;
+}
+
+.item{
+background:#f5f9ff;
+padding:15px;
+border-radius:12px;
+border-left:5px solid #1565c0;
+font-weight:bold;
+transition:.3s;
+}
+
+.item:hover{
+transform:scale(1.03);
+background:#fff9d8;
+}
+
+.note{
+background:#fff8d9;
+border-left:6px solid orange;
+}
+
+.form-box input,
+.form-box select{
+width:100%;
+padding:14px;
+margin:8px 0;
+border-radius:10px;
+border:1px solid #ccc;
+}
+
+.form-box button{
+width:100%;
+padding:15px;
+border:none;
+background:#25d366;
+color:white;
+font-size:18px;
+font-weight:bold;
+border-radius:12px;
+cursor:pointer;
+}
+
+footer{
+background:#003c8f;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25d366;
+color:white;
+padding:15px 22px;
+border-radius:50px;
+font-weight:bold;
+text-decoration:none;
+box-shadow:0 5px 20px rgba(0,0,0,.2);
+animation:bounce 2s infinite;
+}
+
+@keyframes pulse{
+50%{
+box-shadow:0 0 0 12px rgba(37,211,102,.2);
+}
+}
+
+@keyframes bounce{
+50%{
+transform:translateY(-8px);
+}
+}
+
+@keyframes float{
+50%{
+transform:translateY(-20px);
+}
+}
+
+@keyframes pop{
+from{
+transform:scale(.5);
+opacity:0;
+}
+to{
+transform:scale(1);
+opacity:1;
+}
+}
+
+@media(max-width:700px){
+.info{
+grid-template-columns:1fr;
+}
+.hero h1{
+font-size:32px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="badge">
+🚨 સરકારશ્રી ટૂલકિટ સહાય
+</div>
+
+<h1>માનવ કલ્યાણ યોજના 2026</h1>
+
+<p>વિવિધ વ્યવસાય માટે ટૂલકિટ સહાય મેળવો</p>
+
+<div class="info">
+<div>👤 ઉંમર : 18 થી 60 વર્ષ</div>
+<div>📅 છેલ્લી તારીખ : 31/07/2026</div>
+</div>
+
+<a href="#" onclick="applyNow()" class="btn apply">
+📲 હમણાં Apply કરો
+</a>
+
+<a href="https://chat.whatsapp.com/GyMs2rYXj29L4NUfqYzReo"
+target="_blank"
+class="btn group">
+👥 WhatsApp Group Join
+</a>
+
+</section>
+
+<div class="container">
+
+<div class="card">
+<h2>🛠️ લાભાર્થી વ્યવસાયો</h2>
+
+<div class="grid">
+
+<div class="item">🥛 દૂધ-દહીં વેચનાર</div>
+<div class="item">🧵 સિલાઈ મશીન / ભરતકામ</div>
+<div class="item">💄 બ્યુટી પાર્લર</div>
+<div class="item">🍘 પાપડ બનાવટ</div>
+<div class="item">🔧 વાહન સર્વિસીંગ અને રીપેરીંગ</div>
+<div class="item">🚰 પ્લમ્બર</div>
+<div class="item">🎨 સેન્ટિંગ કામ</div>
+<div class="item">⚡ ઇલેક્ટ્રિક એપ્લાયન્સીસ રીપેરીંગ</div>
+<div class="item">🥒 અથાણા બનાવટ</div>
+<div class="item">🛞 પંચર કિટ</div>
+
+</div>
+</div>
+
+<div class="card">
+<h2>📄 જરૂરી ડોક્યુમેન્ટ</h2>
+
+<div class="grid">
+
+<div class="item">✅ આધારકાર્ડ</div>
+<div class="item">✅ રેશન કાર્ડ</div>
+<div class="item">✅ બેન્ક પાસબુક</div>
+<div class="item">✅ આવક દાખલો</div>
+<div class="item">✅ જાતિ દાખલો</div>
+<div class="item">✅ ઇ-શ્રમ કાર્ડ</div>
+<div class="item">✅ ફોટો / સહી</div>
+<div class="item">✅ ઈમેલ / ફોન</div>
+
+</div>
+</div>
+
+<div class="card note">
+
+<h2>☑️ ખાસ નોંધ</h2>
+
+<p style="font-size:18px;line-height:1.8;">
+દૂર રહેતા અને પહોંચી ન શકે તેવા વ્યક્તિ માટે
+ઘર બેઠા ફોર્મ ભરી આપવામાં આવશે.
+Apply Button પર ક્લિક કરીને WhatsApp પર
+સીધો સંપર્ક કરો.
+</p>
+
+</div>
+
+<div class="card form-box">
+
+<h2>📝 ઘર બેઠા ફોર્મ માટે વિગતો ભરો</h2>
+
+<input type="text" id="name" placeholder="તમારું નામ">
+
+<input type="text" id="village" placeholder="ગામ / વિસ્તાર">
+
+<input type="tel" id="mobile" placeholder="મોબાઇલ નંબર">
+
+<select id="business">
+<option>વ્યવસાય પસંદ કરો</option>
+<option>દૂધ-દહીં વેચનાર</option>
+<option>સિલાઈ મશીન / ભરતકામ</option>
+<option>બ્યુટી પાર્લર</option>
+<option>પાપડ બનાવટ</option>
+<option>વાહન સર્વિસીંગ અને રીપેરીંગ</option>
+<option>પ્લમ્બર</option>
+<option>સેન્ટિંગ કામ</option>
+<option>ઇલેક્ટ્રિક એપ્લાયન્સીસ રીપેરીંગ</option>
+<option>અથાણા બનાવટ</option>
+<option>પંચર કિટ</option>
+</select>
+
+<button onclick="sendWhatsApp()">
+📲 Apply / WhatsApp Order મોકલો
+</button>
+
+</div>
+
+</div>
+
+<footer>
+
+<h2>📝💻 BLUECAP CYBER CAFE</h2>
+
+<p>તમામ સરકારી ફોર્મ ભરવામાં આવશે</p>
+
+<h1>☎️ 8140305869</h1>
+
+</footer>
+
+<a href="#" onclick="applyNow()" class="whatsapp-float">
+💬 Apply Now
+</a>
+
+<script>
+
+const number = "918140305869";
+
+function applyNow(){
+
+let msg =
+`નમસ્તે BLUECAP CYBER CAFE,
+
+મારે માનવ કલ્યાણ યોજના 2026 વિશે માહિતી જોઈએ છે.`;
+
+window.open(
+`https://wa.me/${number}?text=${encodeURIComponent(msg)}`,
+'_blank'
+);
+
+}
+
+function sendWhatsApp(){
+
+let name =
+document.getElementById("name").value;
+
+let village =
+document.getElementById("village").value;
+
+let mobile =
+document.getElementById("mobile").value;
+
+let business =
+document.getElementById("business").value;
+
+let msg =
+`નમસ્તે BLUECAP CYBER CAFE,
+
+મારે માનવ કલ્યાણ યોજના 2026 નું ફોર્મ ભરાવવું છે.
+
+નામ : ${name}
+ગામ : ${village}
+મોબાઇલ : ${mobile}
+વ્યવસાય : ${business}
+
+મને આગળની માહિતી મોકલો.`;
+
+window.open(
+`https://wa.me/${number}?text=${encodeURIComponent(msg)}`,
+'_blank'
+);
+
+}
+
+</script>
+
+</body>
+</html>
